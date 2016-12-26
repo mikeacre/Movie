@@ -2,15 +2,15 @@ import webbrowser
 
 
 class Video():
-    """Creates a Video obejcts which holds the title and duration information"""
-    
+    """Creates a Video objects which holds the title and duration information"""
+
     def __init__(self, title, duration):
         self.title = title;
         self.duration = duration
 
 
 class Movie(Video):
-    """Creates a Movie object, holds Video inforamtion as well as storyline, image, and trailer link"""
+    """Creates a Movie object, holds Video information as well as storyline, image, and trailer link"""
 
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
